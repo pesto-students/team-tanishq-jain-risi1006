@@ -1,67 +1,68 @@
-1. # Protocol Stack 
-    Protocol Stack is combination of different layers that are used to enable communication between different layers of software or hardware in a networked system. It defines a standardized framework for transmitting and receiving data over a network.
+# 1. Protocol Stack 
+   Protocol Stack is combination of different layers that are used to enable communication between different layers of software or hardware in a networked system. It defines a standardized framework for transmitting and receiving data over a network.
 
 
 As far as web technology is concered, 
 We have following layers
 
-# Application Layer : 
+## Application Layer : 
   This layer contains protocol which directly interacts with application. Like HTTP/ HTTPS, FTP, SMTP
 
-# Transport Layer : 
+## Transport Layer : 
   It is used to breakdown the data packets into more chunks so that there is no speed constraints.
 
-# Network Layer : 
+## Network Layer : 
   It is helpful when we need to connect computers at diff network. We have IP address, ARP which is used to send the data packets at the right destination
 
-# Physical Layer : 
+## Physical Layer : 
   It's a transmission medium that helps to transmit data packets from one position to the other. It is useful because we have no medium constraint like we can accesss the computers only with physical medium.
 
 
 
 
 
-2. Server provides various functionalities, often called services such as sharing data or resources among multiple clients, or performing computation for client. 
+# 2. Server : 
+   It provides various functionalities, often called services such as sharing data or resources among multiple clients, or performing computation for client. 
 
 
 Followings are the types of Server : 
 
-a. # Application servers :  
-  Application server is a server which is used to host the application.
-b. # Mail Servers: 
-  Mail server is server that handles and delivers email over a network, usually over the internet. It receives email from client computers and deliver them to other mail server. It also delivers email to client computers.
+## Application servers :  
+   Application server is a server which is used to host the application.
+## Mail Servers: 
+   Mail server is server that handles and delivers email over a network, usually over the internet. It receives email from client computers and deliver them to other mail server. It also delivers email to client computers.
 
-c. # FTP Servers: 
-  FTP server is used for transferring files supporting sub directories, log in and set of manipulation commands.
+## FTP Servers: 
+   FTP server is used for transferring files supporting sub directories, log in and set of manipulation commands.
 
-d. # Proxy Servers: 
-  Proxy server is a server application that acts as an intermediary for request from clients seeking resources from servers that provide those resources. 
-
-
+## Proxy Servers: 
+   Proxy server is a server application that acts as an intermediary for request from clients seeking resources from servers that provide those resources. 
 
 
 
-3. # Web hosting : 
+
+
+# 3. Web hosting : 
   It is a service that allows individuals and organizations to make their websites accessible on the internet. When you create a website, you need to store its files and data on a server so that users can access it anytime from anywhere.
 
 There are several types of hosting services available, each with its own features, advantages, and costs. Here are some of the most common types of web hosting:
 
-a. ## Shared Hosting: 
+## Shared Hosting: 
   In shared hosting, multiple websites are hosted on a single server. It is an affordable option as the server resources are shared among multiple users. However, since resources are shared, the performance may be affected if other websites on the server experience high traffic.
 
-b. ## VPS Hosting (Virtual Private Server): 
+## VPS Hosting (Virtual Private Server): 
   VPS hosting involves dividing a physical server into multiple virtual servers, giving each website its dedicated resources. It offers better performance and scalability compared to shared hosting. Users have more control over their server environment and can install software and customize settings.
 
-c. ## Dedicated Hosting: 
+## Dedicated Hosting: 
   Dedicated hosting provides an entire physical server dedicated to a single website. This option offers the highest level of performance, customization, and security. Users have full control over the server and can choose hardware specifications. It is typically more expensive than shared or VPS hosting.
 
-d. ## Cloud Hosting: 
+## Cloud Hosting: 
    Cloud hosting uses multiple servers interconnected in a network to host websites. It offers high scalability, reliability, and flexibility. Cloud hosting can handle traffic surges effectively by distributing the load across multiple servers. Users pay for the resources they consume, making it cost-effective for websites with varying traffic levels.
 
 
 
 
-4. # Scaling : 
+# 4. Scaling : 
   It refers to the ability of a web application or system to handle increased workload or accommodate growth in terms of users, traffic, or data volume. It involves adjusting resources to ensure that the application performs optimally even under high demand. Scaling is crucial for web applications because it helps maintain availability, performance, and user experience as the application's usage and requirements evolve.
 
 ## Vertical Scaling : 
@@ -74,7 +75,7 @@ It also known as scaling out or scaling horizontally, involves adding more serve
 
 
 
-5. # SEO, or Search Engine Optimization :
+# 5. SEO, or Search Engine Optimization :
   It refers to the practice of improving a website's visibility and ranking in search engine results pages.  It involves various techniques and strategies to make a website more search engine-friendly, ultimately driving organic traffic and increasing its online presence.
 
 Here are some ways web developers can optimize their websites for better search engine rankings:
