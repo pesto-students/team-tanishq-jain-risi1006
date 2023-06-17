@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta name="title" content="Add Review to Restaurant Review" />
+        <meta name="description" content="This is Add Review page of Restaurant Review" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </head>
+    <body>
+        <header>
+            <h1>Restaurant Reviews</h1>
+        </header>
+        <nav>
+            <a href="../../index.html">Home</a>
+            <a href="../Reviews/addReview.html">Add Review</a>
+            <a href="../../about.html">About</a><br><br><br>
+        </nav>
+        <h1>Add Review</h1>
+
+        <!-- Form is used to take multiple user input -->
+        <form>
+            <label>
+                Name
+                <input />
+            </label>
+            <br/><br/>
+            <label>
+                Restaurant
+                <select name="Choose one..." id="Choose one..." >
+                    <option value="Choose one...">Choose one...</option>
+                    <option value="main-street-cafe" >Main Street Cafe</option>
+                    <option value="greek-house" >Greek House</option>
+                </select>
+            </label>
+            <br/><br/>
+            <label>
+                Date of visit
+                <input type="date"/>
+            </label>
+            <br/><br/>
+            <label>
+                Rating
+                <input type="number" max="5" min="1">
+            </label>
+            <br/><br/>
+
+            <label>
+                Details
+                <textarea></textarea>
+            </label>
+            <br/><br/>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
+
