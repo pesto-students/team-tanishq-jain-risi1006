@@ -1,5 +1,5 @@
 const API_ENDPOINT = 'https://api.openai.com/v1/images/generations';
-const ACCESS_KEY = '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';
+const ACCESS_KEY = '';
 
 const input = document.getElementById('input-field');
 const image = document.querySelector('#image');
