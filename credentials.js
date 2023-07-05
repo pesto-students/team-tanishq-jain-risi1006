@@ -1,1 +1,1 @@
-const OPEN_AI_SECRET_KEY = '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';
+const OPEN_AI_SECRET_KEY = '';
